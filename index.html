@@ -47,11 +47,6 @@
         <span></span><span></span><span></span><span></span><span></span>
         </div>
 
-       <p style="text-align:center; font-size:18px;">
-  👀 Total Views: <span id="visitor-count">0</span>
-</p>
-
-   
     <!-- Event Section Details  -->
 
     <section id="Events">
@@ -178,19 +173,6 @@
   </div>
 </section>
     <script src="script.js"></script>
-    <script>
-  const namespace = "pratima08-github-io";   // unique naam
-  const key = "invitation-card";             // page ka naam
-
-  fetch(`https://api.counterapi.dev/v1/${namespace}/${key}/up`)
-    .then(response => response.json())
-    .then(data => {
-      document.getElementById("visitor-count").innerText = data.count;
-    })
-    .catch(error => {
-      console.log("Counter error:", error);
-    });
-</script>
-
+   
 </body>
 </html>

@@ -466,7 +466,6 @@ ul li {
   transform: translateY(0);
 }
 
-
 /*  For Small Screen */
 
 @media screen and (min-width: 768px) {
